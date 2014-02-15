@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+  
+  <title>Andy's Pizza</title>
+</head>
+
+
+<body>
+
+
+<h1>Andy's Pizza</h1>
+
+
+<h2>Online Ordering</h2>
+
+
+%s
+<p>%s</p>
+
+
+<form action="pizza.cgi">Your name <input value="%s" maxlength="40" size="40" name="client"><br>
+
+
+  <br>
+
+
+Select the size: &nbsp;<br>
+
+
+%s<br>
+
+
+Check desired toppings:<br>
+
+
+%s<br>
+
+
+  <input value="Submit Pizza Order" type="submit">
+  <input name="pastState" value="%s" type="hidden"><br>
+
+
+</form>
+
+
+</body>
+</html>
